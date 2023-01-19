@@ -1,0 +1,18 @@
+<h2>New deal</h2>
+
+<form action="/newdeal" method="post">
+Please enter number of mangos:
+    <input type="number" name="qty" required>
+    <br>
+    Please enter the price:
+    <input type="number" name="price" required>
+    <br>
+    Please select a shop:
+    <select name="shopid" required>
+        {{#each shops}}
+        <option value="{{id}}">{{name}}</option>
+        {{/each}}
+    </select>
+    <br>
+    <button type="submit">save deal</button>
+</form>

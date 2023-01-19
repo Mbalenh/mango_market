@@ -8,3 +8,21 @@ body {
 	margin: auto;
 	width: 80%;
 }
+
+.navbar {
+	display: flex;
+	list-style: none;
+}
+
+.navbar li {
+	padding: 10px;
+}
+
+table, th, tr, td {
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+
+th, td {
+	padding: 5px;
+}

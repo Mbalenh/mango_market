@@ -1,1 +1,19 @@
 <h2>Best deals</h2>
+{{#if best}}
+<table>
+    <tr>
+        <th>Shop</th>
+        <th>Qty</th>
+        <th>Price</th>
+        <th>Unit Price</th>
+    </tr>
+    {{#each best}}
+    <tr>
+        <td>{{shop_name}}</td>
+        <td>{{qty}}</td>
+        <td>R{{price}}</td>
+        <td>R{{unit_price}}</td>
+    </tr>
+    {{/each}}
+</table>
+{{/if}}

@@ -11,7 +11,7 @@ module.exports = function (db) {
 	}
 
 	async function dealsForShop(shopId) {
-		const result = await db.oneOrNone(`select * from mango_deal where shop_id = $1`, [shopId]);
+		const result = await db.manyOrNone(`select * from mango_deal where shop_id = $1`, [shopId]);
 		return result;
 	}
 
