@@ -1,11 +1,7 @@
 body {
-	background-color: sandybrown;
+	background-color: lightseagreen;
 	color: whitesmoke;
 	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-   /* background-repeat: no-repeat;
-    background-position: center;
-   background-attachment: fixed;
-	background-image: url("https://images.pexels.com/photos/6927631/pexels-photo-6927631.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");*/
 } 	
 
 .container{
